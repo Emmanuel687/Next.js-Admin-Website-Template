@@ -14,18 +14,18 @@ export default function Sidebar() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/"
+              href="/admin"
               className="flex items-center px-6 py-3 text-gray-700 hover:bg-gray-00"
             >
-              Dashboard
+              Experience
             </Link>
           </li>
           <li>
             <Link
-              href="/analytics"
+              href="/admin/projects"
               className="flex items-center px-6 py-3 !text-red-700 hover:bg-gray-100"
             >
-              Analytics
+              Projects
             </Link>
           </li>
         </ul>

@@ -1,10 +1,10 @@
 import React from 'react'
-import Analytics from "@/components/analytics"
-
+import ProjectsView from '@/components/client/projects'
 const page = () => {
+
   return (
     <div>
-      <Analytics />
+       <ProjectsView />
     </div>
   )
 }

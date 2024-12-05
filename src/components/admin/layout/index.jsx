@@ -1,8 +1,9 @@
 import Header from './Header'
 import Sidebar from './Sidebar'
-import Footer from './Footer'
 
-export function DashboardLayout({ children }) {
+
+const AdminLayout = ({ children }) => {
+
   return (
     <div className="flex min-h-screen">
       <Sidebar />
@@ -15,3 +16,5 @@ export function DashboardLayout({ children }) {
     </div>
   )
 }
+
+export default AdminLayout
