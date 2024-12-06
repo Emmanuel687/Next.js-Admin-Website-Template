@@ -17,7 +17,7 @@ export default function Sidebar() {
               href="/admin"
               className="flex items-center px-6 py-3 text-gray-700 hover:bg-gray-00"
             >
-              Experience
+              Main Page
             </Link>
           </li>
           <li>
@@ -25,7 +25,7 @@ export default function Sidebar() {
               href="/admin/projects"
               className="flex items-center px-6 py-3 !text-red-700 hover:bg-gray-100"
             >
-              Projects
+              Admin Page Two
             </Link>
           </li>
         </ul>

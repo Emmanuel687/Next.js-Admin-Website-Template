@@ -28,17 +28,17 @@ const Footer = () => {
               </li>
               <li>
                 <Link href="/client/pagetwo" className="text-gray-400 hover:text-white transition-colors duration-200">
-                  Page 2
+                  Page Two
                 </Link>
               </li>
               <li>
                 <Link href="/client/pagethree" className="text-gray-400 hover:text-white transition-colors duration-200">
-                  Projects
+                  Page Three
                 </Link>
               </li>
               <li>
                 <Link href="/contact" className="text-gray-400 hover:text-white transition-colors duration-200">
-                  Contact
+                  Page Four
                 </Link>
               </li>
             </ul>
