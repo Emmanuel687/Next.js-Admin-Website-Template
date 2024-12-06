@@ -9,10 +9,10 @@ const Header = () => {
   const pathname = usePathname()
 
   const navLinks = [
-    { name: 'Home', href: '/' },
-    { name: 'About', href: '/client//about' },
-    { name: 'Projects', href: '/client//projects' },
-    { name: 'Contact', href: '/client/contact' }
+    { name: 'Main Page', href: '/' },
+    { name: 'Page One', href: '/client/pageone' },
+    { name: 'Page Two', href: '/client/pagetwo' },
+    { name: 'Page Three', href: '/client/pagethree' }
   ]
 
   return (
@@ -22,7 +22,7 @@ const Header = () => {
           {/* Logo/Brand */}
           <div className="flex-shrink-0">
             <Link href="/" className="text-2xl font-bold text-gray-800">
-              Your Name
+              Project Name
             </Link>
           </div>
 
@@ -43,7 +43,7 @@ const Header = () => {
                 </Link>
               ))}
               <button className="bg-blue-500 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-blue-600 transition-colors duration-200">
-                Resume
+                Page Four
               </button>
             </div>
           </div>

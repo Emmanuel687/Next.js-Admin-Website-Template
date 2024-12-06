@@ -13,7 +13,7 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold text-white mb-4">About</h3>
             <p className="text-gray-400">
-              A passionate developer focused on creating beautiful and functional web applications. Let's build something amazing together.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ipsa molestias odit! Molestiae mollitia itaque numquam hic? Est excepturi quod dolore, impedit facilis molestias, ad vero sequi quas dolor et architecto atque? Nobis nulla natus quisquam aspernatur odit voluptatem?
             </p>
           </div>
 
@@ -23,16 +23,16 @@ const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <Link href="/" className="text-gray-400 hover:text-white transition-colors duration-200">
-                  Home
+                  Page One
                 </Link>
               </li>
               <li>
-                <Link href="/about" className="text-gray-400 hover:text-white transition-colors duration-200">
-                  About
+                <Link href="/client/pagetwo" className="text-gray-400 hover:text-white transition-colors duration-200">
+                  Page 2
                 </Link>
               </li>
               <li>
-                <Link href="/projects" className="text-gray-400 hover:text-white transition-colors duration-200">
+                <Link href="/client/pagethree" className="text-gray-400 hover:text-white transition-colors duration-200">
                   Projects
                 </Link>
               </li>
