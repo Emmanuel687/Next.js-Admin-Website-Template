@@ -1,36 +1,85 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js Admin + Website Template
 
-## Getting Started
+# Overview
+A modern, full-stack web application template built with Next.js 14, featuring a public-facing website and a secure admin dashboard. This template provides a robust foundation for building scalable web applications with user authentication, dynamic content management, and a responsive design.
+Features
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+# Website Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Modern, responsive landing page
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Blog/News section
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+About page
 
-## Learn More
+Contact form
 
-To learn more about Next.js, take a look at the following resources:
+Dynamic product/service showcase
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+SEO optimization
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Performance-optimized images and assets
 
-## Deploy on Vercel
+# Admin Dashboard Features
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Secure authentication system
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Role-based access control
+
+Dashboard analytics
+
+User management
+
+Content management system
+
+File upload functionality
+
+Real-time data updates
+
+Activity logging
+
+# Tech Stack
+
+Framework: Next.js 14
+
+Styling: Tailwind CSS
+
+Database: PostgreSQL with Prisma
+
+Authentication: NextAuth.js
+
+State Management: Zustand
+
+Form Handling: React Hook Form
+
+Data Validation: Zod
+
+UI Components: shadcn/ui
+
+Icons: Lucide Icons
+
+Charts: Recharts
+
+# Getting Started
+Prerequisites
+
+Node.js 18+
+
+npm
+
+PostgreSQL database
+
+ ├── app/
+│   ├── admin/             # Admin dashboard routes
+│   ├── api/              # API routes
+│   └── (site)/           # Public website routes
+├── components/
+│   ├── admin/            # Admin-specific components
+│   ├── shared/           # Shared components
+│   └── ui/               # UI components
+├── lib/
+│   ├── prisma/           # Database configuration
+│   └── utils/            # Utility functions
+├── public/               # Static assets
+└── styles/              # Global styles
