@@ -1,10 +1,8 @@
-'use server'
-
+'use client'
 
 import React from 'react'
 
-export const page = () => {
-  // Add New Project
+export default function Page() {
   return (
     <div>page</div>
   )
